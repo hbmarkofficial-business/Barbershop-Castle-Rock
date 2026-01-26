@@ -55,7 +55,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Adresse</h4>
                   <p className="text-muted-foreground">
-                    Äußere Sulzbacher Straße 128, 90491 Nürnberg
+                    Lotharstraße 5, 90547 Stein
                   </p>
                 </div>
               </div>
@@ -68,10 +68,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Telefon</h4>
                   <a
-                    href="tel:+4917629117689"
+                    href="tel:01731856865"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    0176 29117689
+                    01731856865
                   </a>
                 </div>
               </div>
@@ -84,9 +84,13 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Öffnungszeiten</h4>
                   <p className="text-muted-foreground">
-                    Mo. – Fr. 09:00–19:00 Uhr
+                    Mo. 10:00–16:00 Uhr
                     <br />
-                    Sa. 09:00–19:00 Uhr
+                    Di. - Mi. 10:00–18:00 Uhr
+                    <br />
+                    Do. 10:00–19:00 Uhr
+                    <br />
+                    Fr. 10:00–20:30 Uhr
                   </p>
                 </div>
               </div>
@@ -99,7 +103,7 @@ export const ContactSection = () => {
               </Button>
 
               <Button variant="goldOutline" size="xl" asChild>
-                <a href="tel:+4917629117689">Jetzt anrufen</a>
+                <a href="tel:01731856865">Jetzt anrufen</a>
               </Button>
             </div>
           </AnimateOnScroll>
@@ -109,14 +113,14 @@ export const ContactSection = () => {
             <div className="relative">
               <div className="aspect-square lg:aspect-[4/5] rounded-sm overflow-hidden border border-border">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.0466369434594!2d11.117062376893147!3d49.464733457845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57dec87eba7f%3A0xac674ba124944238!2sLord%20Barbershop%20Coiffeur!5e0!3m2!1sde!2sde!4v1769173411707!5m2!1sde!2sde"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41515.599383886714!2d10.998975448632805!3d49.4330136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57da07819f11%3A0xdb3eda2fe5f364ff!2sBarbershop%20Castle%20Rock%20Timo%20Schmidt!5e0!3m2!1sde!2sde!4v1769427327398!5m2!1sde!2sde"
                   width="100%"
                   height="100%"
                   style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Standort Lord Barbershop Coiffeur"
+                  title="Standort Barbershop Castle Rock Timo Schmidt"
                 />
               </div>
 
